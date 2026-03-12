@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+#menuList,
+#cross,
+.menuActive #burger {
+    display: none;
+}
+
+.menuActive #menuList,
+#burger,
+.menuActive #cross {
+    display: flex;
+    
+}
+
+
+#header {
+    display: flex;
+    width: 360px;
+    height: 80px;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#menuList ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menuList li {
+    padding: 0px;
+    width: 170px;
+    height: 345px;
+}
+
+#menuList a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #272A33;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.imgDescr{
+    display: flex;
+    flex-direction: column;
+    width: 148px;
+    padding: 10px;
+    gap: 10px;
+    height: 180px;
+    border: 1px solid #D5DFE9;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: none;
+    margin-top: -7px;
+}
+
+.logoPlusBurger{
+    display: flex;
+    padding-right: 4px;
+    width: 364px;
+}
+#logo {
+    margin-right: auto;
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #272A33;
+    line-height: 120%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.catalog li{
+    width: 170px;
+    height: 373px;
+    padding: 0px;
+    font-family:'Open Sans', sans-serif;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+
+}
+.catalog li svg{
+    z-index: 999;  
+}
+.catalog{
+   width: 360px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.catalog ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;   
+    justify-content: space-between;
+}
+
+.itemName{
+    color: #272A33;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    width: 150px;
+    height: 100px;
+    margin: 0px;
+}
+
+
+.catalog li button {
+    padding: 12px;
+    background-color: #272A33;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 150px;
+    height: 43px;
+    align-self: center;
+}
+
+.catalog span{
+    color: #272A33;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 145%;
+}
+
+#moreButtn{
+    width: 223px;
+    height: 46px;
+    background-color: #272A33;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 145%;
+    text-align: center;
+    border-radius: 8px;
+    align-self: center;
+}
+
+.aboutCompany{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    width: 360px;
+    height: 843px;
+    margin: 0px auto 50px;
+}
+
+#compTitle{
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 700;
+    font-style: bold;
+    color: #272A33;
+    font-family: 'Roboto', sans-serif;
+}
+
+#imgContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0px;
+}
+#imgContainer *{
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+#smallPhotos{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+#textContainer{
+    height: 144px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: 'Open Sans', sans-serif;
+    color: #272A33;
+}
+
+#moreBtn{
+    width: 159px;
+    height: 46px;
+    background-color: #272A33;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 145%;
+    color: #FFFFFF;
+}
+
+.pointsDescr{
+    margin-left: 15px;
+    display: inline;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.points{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+#point1, 
+#point2, 
+#point3 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.points p{
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #272A33;
+    margin: 0px;
+    padding: 0px;
+}
+
+.points svg{
+    flex-shrink: 0;
+}
+
+#textUnderPoints{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #272A33;
+}
+
+#moreBtn{
+    width: 159px;
+    height: 46px;
+    border-radius: 8px;
+    padding: 8px 30px 12px;
+    background-color: #272A33;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 145%;
+    color: #FFFFFF;
+}
