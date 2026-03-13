@@ -1,8 +1,9 @@
 <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 10px;">
-  <img src="./dv.png" width="400">
+desktop versopn:
   <img src="./dv1.png" width="300">
   <img src="./dv2.png" width="300">
   <img src="./dv3.png" width="300">
+mobile version:
   <img src="./mv.png" width="300">
   <img src="./mv1.png" width="300">
 </div>
